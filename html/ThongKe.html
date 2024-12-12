@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thống kê</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid max_width">
+    <header id="header">
+      <a href="home.html" class="logo">
+        <img src="../img/logo.png" alt="Logo" />
+      </a>
+      <nav class="navbar" id="nav-bar">
+        <ul>
+          <li><a href="../html/home.html">Trang chủ</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../html/DatPhong.html" data-toggle="dropdown">
+              Phòng
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../html/DatPhong.html">Đặt phòng</a>
+              <a class="dropdown-item" href="../html/ThuePhong.html">Thuê phòng</a>
+              <a class="dropdown-item" href="../html/DoiPhong.html">Đổi phòng</a>
+              <a class="dropdown-item" href="../html/TraPhong.html">Trả phòng</a>
+            </div>
+          </li>
+          <li><a href="../html/QuanLy.html">Quản lý</a></li>
+          <li><a href="../html/TraCuu.html">Tra cúu</a></li>
+          <li><a href="../html/ThongKe.html">Thống kê</a></li>
+          <li><a href="../html/DoiMatKhau.html">Đổi mật khẩu</a></li>
+        </ul>
+      </nav>
+      <div class="image">
+        <img src="../img/header-removebg-preview.png" alt="" />
+      </div>
+    </header>
+    <div class="image-header">
+      <div class="overlay"></div>
+      <h1>HỖ TRỢ SỬ DỤNG PHẦN MỀM QUẢN LÝ KHÁCH SẠN KIM LIÊN</h1>
+    </div>
+    <section class="intro">
+      <div style="font-size: 20px; text-align: center">
+        Chức năng thống kê cho phép thực hiện các chức năng như
+        <a href="#thongketheongay" style="color: rgb(43, 190, 239)">Thống kê theo ngày</a> ,
+        <a href="#thongke" style="color: rgb(43, 190, 239)">Thống kê của người quản lý</a> ,
+        <a href="#xuatfilebaocao" style="color: rgb(43, 190, 239)">Xuất file thống kê</a> ,
+      </div>
+      <h1 id="thongketheongay" class="intro-title">THỐNG KÊ DOANH THU THEO NGÀY</h1>
+      <div class="step">
+        <img src="../img/Picture17.png" alt="Bước 1" />
+        <h2>
+          <strong>Bước 1:</strong> Nhập ngày cần thống kê bằng nút chọn ngày có biểu tượng cuốn lịch.<br />
+          <strong>Bước 2:</strong>Nhấp vào nút có biểu tượng kính lúp để bắt đầu thống kê, thông tin thống kê sẽ hiển
+          thị đầy đủ vào các ô tương ứng, biểu đồ và bảng.
+        </h2>
+      </div>
+
+      <h1 id="thongke" class="intro-title">THỐNG KÊ CỦA NGƯỜI QUẢN KÝ</h1>
+      <div class="step">
+        <img src="../img/Picture27.png" alt="Bước 1" />
+        <h2>
+          <strong>Bước 1:</strong>Chọn tháng, năm cần thống kê từ combobox tương ứng.<br />
+          <strong>Bước 2:</strong>nhấn vào nút có biểu tượng kính lúp để bắt đầu thống kê, kết quả thống kê sẽ hiển thị
+          vào các ô và biểu đồ.<br />
+        </h2>
+      </div>
+
+      <h1 id="xuatfilebaocao" class="intro-title">XUẤT FILE THỐNG KÊ</h1>
+      <div class="step">
+        <img src="../img/Picture31.png" alt="Bước 1" />
+        <h2>
+          <strong>Bước 1:</strong>Nhấp vào nút có biểu tượng file Excel.<br />
+        </h2>
+      </div>
+      <div class="step">
+        <img src="../img/Picture32.png" alt="Bước 2" />
+        <h2>
+          <strong>Bước 2:</strong>Trong hộp thoại bật lên chọn nơi lưu trữ file xuất ra, và nhấn save.<br />
+        </h2>
+      </div>
+      <div class="step">
+        <img src="../img/Picture33.png" alt="Bước 3" />
+        <h2>
+          <strong>Bước 3:</strong>chọn yes để tiến hành xuất file.<br />
+        </h2>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Nguyễn Nhật Quân</h3>
+          </div>
+          <div class="col-md-3">
+            <h3>Bùi Ngọc Sang</h3>
+          </div>
+          <div class="col-md-3">
+            <h3>Phan Hữu Lộc</h3>
+          </div>
+          <div class="col-md-3">
+            <h3>Đoàn Lan Hương</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../js/script.js"></script>
+  <script>
+    showSlide(0);
+  </script>
+</body>
+
+</html>
